@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: MagentoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 187.009 sec <<< FAILURE!
+posCredentials(MagentoTest)  Time elapsed: 184.428 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at LogOut.clickOnLogout(LogOut.java:15)
+	at MagentoTest.posCredentials(MagentoTest.java:29)
+
