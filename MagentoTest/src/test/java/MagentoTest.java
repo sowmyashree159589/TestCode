@@ -14,7 +14,7 @@ public void posCredentials( )throws Exception {
 	
 	String url="http://www.magento.com";
 	WebDriver driver=new ChromeDriver();
-	driver.manage().window().maximize();
+	
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get(url);
 	Main m=new Main(driver);
