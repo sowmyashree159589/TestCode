@@ -27,7 +27,7 @@ public void posCredentials( )throws Exception {
 	Thread.sleep(3000);
 	LogOut logout=new LogOut(driver);
 	logout.clickOnLogout();
-	Thread.sleep(3000);
+	
 	driver.quit();
 	
 }
